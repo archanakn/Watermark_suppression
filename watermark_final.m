@@ -1,6 +1,6 @@
 clc; clear;
 % Set folders
-imageFolder = '/home/user/archana/synthetic_dataset/images'; % your folder with input images
+imageFolder = 'image_dataset'; % your folder with input images
 imageFiles = dir(fullfile(imageFolder, '*.jpg'));
 % Initialize accumulators
 totalPSNR = 0;
